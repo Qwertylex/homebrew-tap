@@ -35,7 +35,7 @@ class Ardour < Formula
 
 #    cd "./tools/osx_packaging" do
 #      system "./osx_build", "--help"
-    end
+#    end
   end
 
   test do
