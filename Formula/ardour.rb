@@ -33,8 +33,8 @@ class Ardour < Formula
     system "./waf", "configure", "--prefix=#{prefix}", "--with-backends=jack"
     system "./waf", "install"
 
-    cd "./tools/osx_packaging" do
-      system "./osx_build", "--help"
+#    cd "./tools/osx_packaging" do
+#      system "./osx_build", "--help"
     end
   end
 
